@@ -1,0 +1,7 @@
+madlib = "The grinch is a(n) #{adjective_1} #{color} creature
+who does not like Christmas cheer.
+When he sees people celebrating Christmas,
+it makes him #{adjective_2}. He and his
+#{animal} Max try to #{verb} Christmas for people
+in the town of #{noun}-ville by #{}{ing_verb} their
+Christmas #{plural_noun}"
