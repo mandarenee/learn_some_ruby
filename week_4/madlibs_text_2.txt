@@ -1,0 +1,7 @@
+Have you ever felt so %{adjective_1} that you just want to %{verb}?
+Well, I have a solution! You just have to spend
+some time with a %{adjective_2} %{animal}.
+Especially if the %{animal} is %{ing_verb}.
+If that doesn't work, try getting a %{noun},
+or several %{plural_noun}.
+That should definitely do the trick.
