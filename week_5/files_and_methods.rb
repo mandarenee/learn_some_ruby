@@ -4,6 +4,23 @@ filename = ARGV.first
 # Write 3 methods here to satifsy the driver
 # code written below:
 
+# Truncates the @target object
+def erase_contents()
+  @target.truncate(0)
+end
+
+# Closes the @target object
+def close_file()
+  @target.close
+end
+
+# Writes all the items from *argv to the file, line by line
+def write_to_file(*argv)
+  argv.each do |line|
+    @target.write("#{line}\n")
+  end
+end
+
 erase_contents()
 puts "Now I'm going to ask you for three lines."
 
