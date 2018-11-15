@@ -24,6 +24,9 @@ Did you notice that the bridge was just the same line 4 times? Let's fix that, b
 ### Step 5
 We're having to print out `chorus()` several times in a row in most cases, let's try passing in the number of times we want to print it as a parameter to `chorus()` so when we need it printed out twice, we can just call `chorus(2)` (You can use the same looping concept that we did in step 4). This one might be a little hard, but give it a shot!
 
+### Step 6
+Replace the `puts "\t\n"` format with the usage of heredoc. (Exersice 24 in Learn Ruby the Hard Way) 
+
 So there it is! A refactored printing of the lyrics!
 
 #### Wake Me Up
