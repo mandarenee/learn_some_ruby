@@ -27,6 +27,9 @@ We're having to print out `chorus()` several times in a row in most cases, let's
 ### Step 6
 Replace the `puts "\t\n"` format with the usage of heredoc. (Exersice 24 in Learn Ruby the Hard Way) 
 
+### Step 7
+Goal: Try to only use one `puts` in the document. You can work towards this goal with returning song sections from each method instead of printing them with `puts`. Then, wrap all of the method calls in one method (collect chorus(), first_verse(), etc. in one method... I called mine `sing_it()`). There are a couple of different ways to only print using `puts` one time, but I made a string and added all of the returned strings from each method into one big string, adding to it with each call, then `puts` one string at the end. Get as far as you can, but feel free to take a peek at my example if you need to.
+
 So there it is! A refactored printing of the lyrics!
 
 #### Wake Me Up
